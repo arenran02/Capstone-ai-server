@@ -1,0 +1,31 @@
+# Core Python version: 3.10 (specify in conda env, not here)
+
+# PyTorch + CUDA (install via conda, not pip to avoid binary issues)
+torch
+torchvision
+
+# CLIP from OpenAI (installed via Git)
+git+https://github.com/openai/CLIP.git
+
+# Text processing
+ftfy
+regex
+tqdm
+scikit-learn
+
+# Translation
+googletrans==4.0.0-rc1
+deep-translator
+
+# Web framework & server
+fastapi[all]
+uvicorn
+
+# HTTP + utilities
+requests
+python-dotenv
+pillow
+pymongo
+
+# Transformers and model loading
+transformers
